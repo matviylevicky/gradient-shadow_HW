@@ -1,0 +1,25 @@
+.linear_gradient {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 33%, rgba(148,187,233,1) 78%);
+}
+.deg_linear_gradient {
+    background: rgb(238,174,202);
+    background: linear-gradient(30deg, rgba(238,174,202,1) 33%, rgba(148,187,233,1) 78%);
+}
+.radial_gradient {
+    background: rgb(238,174,202);
+    background: radial-gradient( rgba(238,174,202,1) 35%, rgba(148,187,233,1) 54%);
+}
+.circle_radial_gradient {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 25%, rgba(148,187,233,1) 45%);
+}
+.outset_shadow {
+    box-shadow: 5px 10px 15px 10px rgb(58, 56, 56) ;
+}
+.inset_shadow {
+    box-shadow: inset 0px 0px 30px 20px rgb(39, 39, 221);
+}
+.shadow {
+    box-shadow:5px 10px 15px 10px rgb(58, 56, 56), 10px 15px 10px 15px rgb(116, 66, 66),15px 10px 20px 20px rgb(154, 156, 41) ;
+}
